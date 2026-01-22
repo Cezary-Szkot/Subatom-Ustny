@@ -1,0 +1,32 @@
+\babel@toc {polish}{}\relax 
+\contentsline {section}{\numberline {1}Rozmiar atomu, jądra atomowego, nukleonu, elektronu. Metody pomiaru tych wielkości}{3}{section.1}%
+\contentsline {section}{\numberline {2}Skala energii przejść między stanami elektronowymi atomu, między stanami nukleonów w jądrze}{4}{section.2}%
+\contentsline {section}{\numberline {3}Rodzaje cząstek elementarnych: leptony i hadrony, kwarkowa teoria budowy hadronów}{5}{section.3}%
+\contentsline {section}{\numberline {4}Rodzaje oddziaływań, ich zasięg, własności nośników}{6}{section.4}%
+\contentsline {section}{\numberline {5}Jednostki energii, masy, przekroju czynnego. Stałe używane przy konwersji jednostek}{7}{section.5}%
+\contentsline {section}{\numberline {6}Liczby kwantowe przypisane cząstkom materii. Ich zachowanie w oddziaływaniach}{8}{section.6}%
+\contentsline {section}{\numberline {7}Przykłady mezonów i barionów. Ich liczby kwantowe i masa}{9}{section.7}%
+\contentsline {section}{\numberline {8}Schemat typowych układów badawczych używanych w fizyce subatomowej}{10}{section.8}%
+\contentsline {section}{\numberline {9}Źródła cząstek używanych w doświadczeniach z fizyki subatomowej}{11}{section.9}%
+\contentsline {section}{\numberline {10}Związek między energią cząstek a skalą przestrzenną badanego procesu}{12}{section.10}%
+\contentsline {section}{\numberline {11}Metody przyspieszania cząstek}{13}{section.11}%
+\contentsline {section}{\numberline {12}Masa niezmiennicza układu cząstek}{14}{section.12}%
+\contentsline {section}{\numberline {13}Przekrój czynny całkowity i różniczkowy. Definicja, związek z liczbą oddziaływań i osłabianiem wiązki w materii.}{15}{section.13}%
+\contentsline {section}{\numberline {14}Straty energii cząstek w ośrodku}{16}{section.14}%
+\contentsline {section}{\numberline {15}Rodzaje detektorów cząstek. Zasada działania}{17}{section.15}%
+\contentsline {section}{\numberline {16}Rodzaje akceleratorów}{18}{section.16}%
+\contentsline {section}{\numberline {17}Własności oddziaływania słabego}{19}{section.17}%
+\contentsline {section}{\numberline {18}Czynnik struktury w rozpraszaniu elastycznym}{20}{section.18}%
+\contentsline {section}{\numberline {19}Masa jądra atomowego. Energia wiązania, nadwyżka masy}{21}{section.19}%
+\contentsline {section}{\numberline {20}Model kroplowy, energia wiązania}{22}{section.20}%
+\contentsline {section}{\numberline {21}Parabola mas. Ścieżka stabilności}{23}{section.21}%
+\contentsline {section}{\numberline {22}Bilans energii w rozpadach alfa i beta}{24}{section.22}%
+\contentsline {section}{\numberline {23}Model gazu Fermiego}{24}{section.23}%
+\contentsline {section}{\numberline {24}Model powłokowy. Spin jąder}{25}{section.24}%
+\contentsline {section}{\numberline {25}Przejścia gamma. Reguły wyboru}{27}{section.25}%
+\contentsline {section}{\numberline {26}Przejścia alfa. Czas życia ze względu na przejście alfa. Reguły wyboru}{28}{section.26}%
+\contentsline {section}{\numberline {27}Przejścia beta. Rozkład energii elektronu. Związek z masą neutrina}{30}{section.27}%
+\contentsline {section}{\numberline {28}Rozszczepienie jąder ciężkich: reakcje łańcuchowe, reaktor jądrowy, masa krytyczna}{32}{section.28}%
+\contentsline {section}{\numberline {29}Schemat budowy reaktora jądrowego}{33}{section.29}%
+\contentsline {section}{\numberline {30}Doświadczalne potwierdzenie istnienia gluonów}{34}{section.30}%
+\contentsline {section}{\numberline {31}Doświadczalne potwierdzenie istnienia bozonów W i Z}{35}{section.31}%
