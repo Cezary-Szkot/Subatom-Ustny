@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1769121447.47101 "/home/administrator/Documents/Studia/III rok/Subatom/Ustny/ustny.tex" "ustny.pdf" "ustny" 1769121449.90069 0
-  "/home/administrator/Documents/Studia/III rok/Subatom/Ustny/ustny.tex" 1769121444.78949 33563 f7e5446786677109e37eca79ab8b468d ""
+["pdflatex"] 1769122205.80444 "/home/administrator/Documents/Studia/III rok/Subatom/Ustny/ustny.tex" "ustny.pdf" "ustny" 1769122208.21424 0
+  "/home/administrator/Documents/Studia/III rok/Subatom/Ustny/ustny.tex" 1769122204.35591 33573 e3ee2a5a014083988c7d73664ec0749e ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1640468671 2914 8283dfc24eaf1964346f843d7605c2b0 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1422827479 2083 60e36f8eac802fcaf19eabe2633b406e ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -301,10 +301,10 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1766621254.98147 4602601 5d02a5c5d52d7237566d144856366042 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1766620859 7753932 1a33f727708c6c872e95690f52f04632 ""
   "img//gaz_Fermiego.pdf" 1769121083.90018 19766 5ef9cd017f29fc44c77483433027e727 ""
-  "ustny.aux" 1769121449.74896 8164 9dbf76c3caa06f73a16d4b245d8a4071 "pdflatex"
-  "ustny.out" 1769121449.74996 10408 7eb367dbde669843a99fee5feb33a84a "pdflatex"
-  "ustny.tex" 1769121444.78949 33563 f7e5446786677109e37eca79ab8b468d ""
-  "ustny.toc" 1769121449.7509 3569 df45922c41a36ed515acd5263b750384 "pdflatex"
+  "ustny.aux" 1769122208.06054 8169 e6771a44c6625d62c2c76411adbbef56 "pdflatex"
+  "ustny.out" 1769122208.06154 10408 7eb367dbde669843a99fee5feb33a84a "pdflatex"
+  "ustny.tex" 1769122204.35591 33573 e3ee2a5a014083988c7d73664ec0749e ""
+  "ustny.toc" 1769122208.06254 3569 df45922c41a36ed515acd5263b750384 "pdflatex"
   (generated)
   "ustny.aux"
   "ustny.log"

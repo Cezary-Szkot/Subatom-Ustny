@@ -229,7 +229,7 @@ Dodając średnią energię wiązania na nukleon $\langle B/A \rangle=\SI{7}{\M
     V_0=E_F+\left\langle\frac{B}{A}\right\rangle\approx{\color{darkred}\SI{40}{\MeV}}.
 \end{equation*}
 
-Policzona energia Fermiego jest względem dna potencjału. Jądra mają zwykle nadwyżkę neutronów, więc energia Fermiego dla neutronów musi być trochę większa. Poziom energetyczny zajmowany przez protony nie może być wyżej niż poziom neutronów, gdyż inaczej jądro rozpadło by się przez rozpad $\beta^+$. \textit{Wobec tego studnia potencjału dla neutronów jest głębsza niż dla protonów}. Wynika z tego, że \emph{protony są średnio słabiej związane w jądrze niż neutrony}.
+Policzona energia Fermiego jest względem dna potencjału. Jądra mają zwykle nadwyżkę neutronów, więc energia Fermiego dla neutronów musi być trochę większa. Poziom energetyczny zajmowany przez protony nie może być wyżej niż poziom neutronów, gdyż inaczej jądro rozpadłoby się przez rozpad $\beta^+$. \textit{Wobec tego studnia potencjału dla neutronów jest głębsza niż dla protonów}. Wynika z tego, że \emph{protony są średnio słabiej związane w jądrze niż neutrony}.
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.7]{gaz_Fermiego.pdf}
@@ -253,7 +253,7 @@ Można przedstawić pewne obserwacje stanowiące \emph{motywację} do opracowani
         width=14cm,
         height=6cm,
         xlabel={Liczba atomowa $Z$},
-        ylabel={Energia pierwszej jonizacji [eV]},
+        ylabel={Energia jednokrotnej jonizacji [eV]},
         xmin=0, xmax=85,
         ymin=0, ymax=30,
         grid=both,
@@ -301,7 +301,7 @@ Można przedstawić pewne obserwacje stanowiące \emph{motywację} do opracowani
     \end{axis}
 \end{tikzpicture}
 \vspace{-5pt}
-\caption{\centering Energia pierwszej jonizacji jako funkcja liczby atomowej $Z$. Wyraźnie widoczne są maksima dla gazów szlachetnych (He, Ne, Ar, Kr, Xe, Rn), odpowiadające całkowitemu zapełnieniu powłok elektronowych.}
+\caption{\centering Energia jednokrotnej jonizacji jako funkcja liczby atomowej $Z$. Wyraźnie widoczne są maksima dla gazów szlachetnych (He, Ne, Ar, Kr, Xe, Rn), odpowiadające całkowitemu zapełnieniu powłok elektronowych.}
 \end{figure}
 \vspace{-5pt}
 
@@ -309,11 +309,11 @@ Można przedstawić pewne obserwacje stanowiące \emph{motywację} do opracowani
 \begin{equation}
     \color{darkred} V({\bm r}) = V(r) - f(r){\bm L}\cdot{\bm S},
 \end{equation}
-gdzie za $V(r)$ wstawia się zwykle \emph{potencjał Saxa-Woodsa} (studnia z zaokrąglonym brzegiem):
+gdzie za $V(r)$ wstawia się zwykle \emph{potencjał Saxona-Woodsa} (studnia z zaokrąglonym brzegiem):
 \begin{equation}
     \color{darkred} V(r) = -\frac{V_0}{1+e^{\frac{r-R}{a}}}.
 \end{equation}
-Równanie Schroedingera z potencjałem Saxa-Woodsa nie da się rozwiązać analitycznie. Wymaga przybliżeń lub metod numerycznych. Dla \textit{lekkich jąder} ($A<7$) można użyć potencjału harmonicznego, który daje się analitycznie rozwiązać. 
+Równanie Schroedingera z potencjałem Saxona-Woodsa nie da się rozwiązać analitycznie. Wymaga przybliżeń lub metod numerycznych. Dla \textit{lekkich jąder} ($A<7$) można użyć potencjału harmonicznego, który daje się analitycznie rozwiązać. 
 
 \begin{figure}[H]
 \centering
@@ -352,7 +352,7 @@ Równanie Schroedingera z potencjałem Saxa-Woodsa nie da się rozwiązać anali
     \end{axis}
 \end{tikzpicture}
 \vspace{-8pt}
-\caption{\centering Potencjał Saxa-Woodsa dla parametrów: $V_0 = 50$ MeV, $R = 5$ fm, $a = 0{,}5$ fm.}
+\caption{\centering Potencjał Saxona-Woodsa dla parametrów: $V_0 = 50$ MeV, $R = 5$ fm, $a = 0{,}5$ fm.}
 \end{figure}
 
 \vspace{3pt}
@@ -377,7 +377,7 @@ Według \textbf{\color{darknavy} hipotezy parowania} pary nukleonów tego samego
 
 Model powłokowy przewiduje, że jądra zawierające {\color{darkblue} 2, 8, 20, 28, 50, 82, 126} protonów lub neutronów są silniej związane. Liczby te nazywamy \emph{magicznymi}. Pojawiają się one dla dużych przerw między stanami. Model przewiduje również poprawnie \emph{stany podstawowe jąder}. Wynikają z niego następujące fakty:
 \begin{itemize}
-    \item[$\star$] Zamnknięte powłoki mają zawsze stan $0^+$. Para nukleonów tego samego rodzaju sprzęga się do stanu $0^+$.
+    \item[$\star$] Zamknięte powłoki mają zawsze stan $0^+$. Para nukleonów tego samego rodzaju sprzęga się do stanu $0^+$.
     \item[$\star$] Jeden nukleon poza zamkniętą podpowłoką (nieparzyste $A$) determinuje stan całego jądra.
     \item[$\star$] W sytuacji gdy brakuje jednego nukleonu do zamknięcia podpowłoki, brakujący stan także determinuje stan całego jądra.
     \item[$\star$] W przypadku jąder nieparzysto-nieparzystych sytuacja jest bardziej skomplikowana i spin jądra wyznaczany jest przez sumę momentów pędu nukleonów poza powłokami, ale przydatny jest fakt, że \emph{wszystkie jądra nieparzysto-nieparzyste są bozonami}.    
@@ -393,7 +393,7 @@ Niestety model powłokowy \emph{zawodzi w przewidywaniu stanów wzbudzonych jąd
 
 \emph{Przemianą $\gamma$} nazywamy przejście między stanami jądra z emisją promieniowania elektromagnetycznego. Jądra powstałe po rozpadach często znajdują się w stanach wzbudzonych. Przejście do stanu podstawowego zachodzi przez przemianę $\gamma$. 
 
-Przemianę możemy traktować jako emisję promieniowania przez pewne rozkłady ładunków i prądów. Czteropotencjał $A^{\mu}=(\phi,\,\vec{A})$ fali elektromagnetycznej emitowanej przez dowolne źródło można rozwinąć w szereg wkładów multipoli elektrycznych i magnetycznych. W zależności od tego, który czynnik pola dominuje w procesie emisji fotonu, co można określić sprawdzając czy parzystości stanu początkowego i końcowego jądra są różne czy takie same (patrz tab. \ref{tab:multipole}), przemiany $\gamma$ dzielimy na \emph{elektryczne} i \emph{mangetyczne}. Kolejnym pojęciem związanym z rozwinięciem multipolowym jest \emph{polowość przejścia}. Nazywamy tak całkowity moment pędu $J_{\gamma}$ (ozn. również jako $L$) unoszony przez kwant $\gamma$, który określony jest wzorem:
+Przemianę możemy traktować jako emisję promieniowania przez pewne rozkłady ładunków i prądów. Czteropotencjał $A^{\mu}=(\phi,\,\vec{A})$ fali elektromagnetycznej emitowanej przez dowolne źródło można rozwinąć w szereg wkładów multipoli elektrycznych i magnetycznych. W zależności od tego, który czynnik pola dominuje w procesie emisji fotonu, co można określić sprawdzając czy parzystości stanu początkowego i końcowego jądra są różne czy takie same (patrz tab. \ref{tab:multipole}), przemiany $\gamma$ dzielimy na \emph{elektryczne} i \emph{magnetyczne}. Kolejnym pojęciem związanym z rozwinięciem multipolowym jest \emph{polowość przejścia}. Nazywamy tak całkowity moment pędu $J_{\gamma}$ (ozn. również jako $L$) unoszony przez kwant $\gamma$, który określony jest wzorem:
 \begin{equation}
     \color{darkred} {\bm J}_{\gamma}^2 = \hbar^2 J_{\gamma}(J_{\gamma}+1).
 \end{equation}
@@ -436,7 +436,7 @@ Z pierwszej reguły widać, że przejście $0\to0$ jest wzbronione. Jednak wzbro
     \item[$\star$] \emph{Emisja pary $e^+e^-$}.
 \end{itemize}
 
-\emph{Czas życia stanu wzbudzonego}, a zatem również prawdopodobieństwo przejścia do innego stanu, zależy silnie od multipolowości. Im większa multipolowość $L$ tym dłuższy czas życia. \textit{Standardowo} czasy życia stanów zawierają się w przedziale od $10^-{15}$~s do $10^{-9}$~s. Niekiedy, ze względu na wymaganą emisję promieniowania o bardzo dużej multipolowości, wydłużają się one znacznie do rzędu dni. Mówimy wtedy o zjawisku \emph{izomerii jądrowej}. Izomery mogą przechodzić do stanu podstawowego swego izotopu (ang. \textit{isomeric transition}, IT) lub rozpadać się do innych nuklidów. 
+\emph{Czas życia stanu wzbudzonego}, a zatem również prawdopodobieństwo przejścia do innego stanu, zależy silnie od multipolowości. Im większa multipolowość $L$ tym dłuższy czas życia. \textit{Standardowo} czasy życia stanów zawierają się w przedziale od $10^{-15}$~s do $10^{-9}$~s. Niekiedy, ze względu na wymaganą emisję promieniowania o bardzo dużej multipolowości, wydłużają się one znacznie do rzędu dni. Mówimy wtedy o zjawisku \emph{izomerii jądrowej}. Izomery mogą przechodzić do stanu podstawowego swego izotopu (ang. \textit{isomeric transition}, IT) lub rozpadać się do innych nuklidów. 
 
 Podać można \textbf{\color{darknavy} przybliżone reguły zakładające przejścia jednonukleonowe}:
 \begin{itemize}
