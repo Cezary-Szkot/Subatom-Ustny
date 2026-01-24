@@ -166,8 +166,144 @@ jądrze}
 
 \newpage
 \section{Czynnik struktury w rozpraszaniu elastycznym}
+\label{sec:czynnik_struktur:18}
 
+\emph{Rozpraszanie Rutherforda} jest rozpraszaniem naładowanej, punktowej, cząstki o ładunku $e$, \emph{spinie 0} i całkowitej energii $E$ na punktowym centrum oddziaływania o ładunku $Ze$ i spinie 0. W układzie spoczynkowym centrum rozpraszającego różniczkowy przekrój czynny jest dany wzorem:
+\begin{equation}
+    \boxed{ \left( \dv{\sigma}{\Omega} \right)_{\text{Ruth}} = \frac{Z^2 \alpha^2 (\hbar c)^2}{4c^2\vec{p}^2\beta^2\sin^4(\theta/2)} }
+\end{equation}
 
+\begin{figure}[H]
+\centering
+\includegraphics{Rutherford.pdf}
+\vspace{-5pt}
+\caption{\centering Schemat rozpraszania Rutherforda. Cząstka o ładunku $e$ i pędzie $\vec{p}$ rozprasza się na centrum o ładunku $Ze$ pod kątem $\theta$. Parametr zderzenia $b$ to odległość od centrum w kierunku prostopadłym do toru padania. \url{https://commons.wikimedia.org/wiki/File:Rutherford_scattering_single_alpha_particle.svg}}
+\end{figure}
+
+\emph{Rozpraszaniem Motta} jest rozpraszanie naładowanej, punktowej cząstki o ładunku $e$, \emph{spinie 1/2} i całkowitej energii $E$ na punktowym centrum oddziaływania o ładunku $Ze$ i spinie 0. Różniczkowy przekrój czynny na rozpraszanie Motta można wyrazić za pomocą różniczkowego przekroju czynnego na rozpraszanie Rutherforda:
+\begin{equation}
+    \boxed{\left( \dv{\sigma}{\Omega} \right)_{\text{Mott}} = \left[1-\beta^2\sin^2\left(\frac{\theta}{2}\right)\right]\left( \dv{\sigma}{\Omega} \right)_{\text{Ruth}}\xlongrightarrow{\beta\to1}\cos^2\left(\frac{\theta}{2}\right) \left( \dv{\sigma}{\Omega} \right)_{\text{Ruth}}}
+\end{equation}
+
+W tym miejscu wypada wprowadzić pojęcie \emph{heliczności}. Helicznością nazywamy rzut spinu cząstki na kierunek jej pędu. W ogólności heliczność nie jest zachowana dla cząstek masowych, ponieważ nie stanowi niezmiennika transformacji Lorentza. Jednakże w reżimie ultra relatywistycznym $E \gg m$, co sprawia, że heliczność jest w dobrym przybliżeniu zachowana, analogicznie jak ma to miejsce dla cząstek bezmasowych.
+Zachowanie heliczności w tym reżimie prowadzi do tłumienia rozpraszania. Dla zobrazowania posłużmy się prostym \textit{przykładem}. Załóżmy, że ultra relatywistyczny pocisk porusza się początkowo wzdłuż osi $z$, a rzut jego spinu na tę oś wynosi $1/2$, czyli znajduje się on w stanie $\ket{s_z=1/2}$. W wyniku oddziaływania cząstka może ulec rozproszeniu o kąt $\theta=\pi/2$, tak że nowym kierunkiem jej pędu staje się oś $x$.
+Jeżeli heliczność ma zostać zachowana, spin cząstki po rozproszeniu musi być skierowany wzdłuż nowego kierunku pędu, co oznacza, że cząstka musi znaleźć się w stanie
+\begin{equation}
+    \ket{s_x=\tfrac{1}{2}}=\tfrac{1}{\sqrt{2}}\left(\ket{s_z=\tfrac{1}{2}}+\ket{s_z=-\tfrac{1}{2}}\right).
+\end{equation}
+Prawdopodobieństwo przejścia ze stanu początkowego do takiego stanu końcowego wynosi
+\begin{equation}
+    \abs{\braket{s_z=\tfrac{1}{2}}{s_x=\tfrac{1}{2}}}^2 = \tfrac{1}{2}.
+\end{equation}
+Oznacza to, że jedynie połowa amplitudy rozpraszania odpowiada konfiguracjom zgodnym z zachowaniem heliczności, natomiast pozostała część wymagałaby zmiany heliczności i w granicy ultra relatywistycznej jest silnie tłumiona. W efekcie rozpraszanie pod kątem $\theta=\pi/2$ ulega redukcji o $1/2$.
+
+Wcześniejsze rozpraszania zakładały punktowość ładunku centrum oddziaływania. Uwzględnienie jego rozkładu powoduje pojawienie się czynnika, zwanego \emph{czynnikiem struktury}, który jest transformatą Fouriera rozkładu ładunku:
+\begin{equation}
+     {\color{darkred}F(\vec{q}^2) = \int \rho(\vec{r}) e^{\frac{i}{\hbar}\vec{q}\cdot \vec{r}}\dd[3]{r}},\quad\text{gdzie }\vec{q}=\vec{p}_f-\vec{p}_i.
+\end{equation}
+Wzór na różniczkowy przekrój czynny na rozpraszanie na centrum o niepunktowym rozkładzie ładunku przyjmuje postac:
+\begin{equation}
+    \color{darkred}\boxed{\dv{\sigma}{\Omega} = \abs{F(\vec{q}^2)}^2 \left( \dv{\sigma}{\Omega} \right)_{\text{Mott}}}
+\end{equation} 
+W przypadku zderzeń elastycznych $\abs{\vec{p}_i}=\abs{\vec{p}_f}$, więc przekaz pędu $\vec{q}$ zależy wtedy jedynie od kąta rozproszenia pocisków:
+\begin{equation*}
+    \vec{q}^2 = \vec{p}_i^2 + \vec{p}_f^2 - 2\vec{p}_i\cdot\vec{p}_f=2p^2(1-\cos\theta)=4p^2\sin^2\left(\tfrac{\theta}{2}\right).
+\end{equation*}
+\hl{Analiza przekroju czynnego na rozpraszanie pozwala na wyznaczenie czynników struktury jąder tarczy.}
+
+\vspace{3pt}
+Policzmy teraz czynniki struktury dla przykładowych rozkładów ładunków:
+\begin{itemize}
+    \item[$\star$]\textbf{Rozkład punktowy}
+    \[
+    \rho(\vec{r})=\delta^3(\vec{r}), \quad
+    F(\vec{q}^2)=\int\delta^3(\vec{r})e^{\tfrac{i}{\hbar}\vec{q}\cdot\vec{r}}\dd[3]{r} = {\color{darkred}1}\leftarrow\text{stała}.
+    \]
+    \item[$\star$]\textbf{Rozkład stały}
+    \[
+    \rho(\vec{r})=
+    \begin{cases}
+        \frac{3}{4\pi R^3},\quad\text{dla $r\leq R$}\\
+        0,\quad\quad\ \ \text{dla $r>R$}
+    \end{cases},
+    \quad
+    F(\vec{q}^2) = 3\left(\frac{\hbar}{qR}\right)^3
+    \left[ \sin\left(\frac{qR}{\hbar}\right) - \frac{qR}{\hbar}\cos\left(\frac{qR}{\hbar}\right)\right]
+    \leftarrow\text{funkcja niemonotoniczna}.
+    \]
+    \item[$\star$]\textbf{Rozkład wykładniczy}
+    \[
+    \rho(\vec{r})=\frac{1}{8\pi r_0^3}\,e^{-\tfrac{\abs{\vec{r}}}{r_0}},
+    \quad
+    {\color{darkred}\boxed{F(\vec{q}^2) = \frac{1}{\left(1 + \frac{q^2r_0^2}{\hbar^2}\right)^2}}}
+    \leftarrow\text{\textbf{formuła dipolowa}}.
+    \]
+    \vspace{-3pt}
+    \textit{Wyprowadzenie:}
+    Przechodzimy do współrzędnych sferycznych $\dd[3]{r}=r^2\sin\theta\dd{r}\dd{\theta}\dd{\varphi}$ i wybieramy oś $z$ wzdłuż kierunku $\vec{q}$, tak że $\vec{q}\cdot\vec{r}=qr\cos\theta$:
+    \begin{align*}
+        F(\vec{q}^2) &= \frac{1}{8\pi r_0^3}\int_0^{\infty}\int_0^{\pi}\int_0^{2\pi} e^{-\frac{r}{r_0}} e^{\frac{iqr\cos\theta}{\hbar}} r^2\sin\theta\dd{\varphi}\dd{\theta}\dd{r}\\
+        &= \frac{2\pi}{8\pi r_0^3}\int_0^{\infty} r^2 e^{-\frac{r}{r_0}}\dd{r} \int_0^{\pi} e^{\frac{iqr\cos\theta}{\hbar}}\sin\theta\dd{\theta}.
+    \end{align*}
+    Wykonujemy całkę kątową, podstawiając $u=\cos\theta$, $\dd{u}=-\sin\theta\dd{\theta}$:
+    \begin{align*}
+        \int_0^{\pi} e^{\frac{iqr\cos\theta}{\hbar}}\sin\theta\dd{\theta} 
+        &= -\int_1^{-1} e^{\frac{iqru}{\hbar}}\dd{u}
+        = \int_{-1}^{1} e^{\frac{iqru}{\hbar}}\dd{u}\\
+        &= \left[\frac{\hbar}{iqr}e^{\frac{iqru}{\hbar}}\right]_{-1}^{1}
+        = \frac{\hbar}{iqr}\left(e^{\frac{iqr}{\hbar}} - e^{-\frac{iqr}{\hbar}}\right)
+        = \frac{2\hbar}{qr}\sin\left(\frac{qr}{\hbar}\right).
+    \end{align*}
+    Wstawiając z powrotem:
+    \begin{align*}
+        F(\vec{q}^2) &= \frac{1}{4 r_0^3}\int_0^{\infty} r^2 e^{-\frac{r}{r_0}} \frac{2\hbar}{qr}\sin\left(\frac{qr}{\hbar}\right)\dd{r}
+        = \frac{\hbar}{2qr_0^3}\int_0^{\infty} r e^{-\frac{r}{r_0}}\sin\left(\frac{qr}{\hbar}\right)\dd{r}.
+    \end{align*}
+    Korzystamy z całki $\int_0^{\infty} x e^{-ax}\sin(bx)\dd{x} = \frac{2ab}{(a^2+b^2)^2}$ z $a=\frac{1}{r_0}$ i $b=\frac{q}{\hbar}$:
+    \begin{align*}
+        \int_0^{\infty} r e^{-\frac{r}{r_0}}\sin\left(\frac{qr}{\hbar}\right)\dd{r}
+        &= \frac{2\cdot\frac{1}{r_0}\cdot\frac{q}{\hbar}}{\left(\frac{1}{r_0^2}+\frac{q^2}{\hbar^2}\right)^2}
+        = \frac{2qr_0}{\hbar}\cdot\frac{r_0^4}{\left(1+\frac{q^2r_0^2}{\hbar^2}\right)^2}
+        = \frac{2qr_0^5}{\hbar\left(1+\frac{q^2r_0^2}{\hbar^2}\right)^2}.
+    \end{align*}
+    Ostatecznie:
+    \begin{align*}
+        F(\vec{q}^2) &= \frac{\hbar}{2qr_0^3}\cdot\frac{2qr_0^5}{\hbar\left(1+\frac{q^2r_0^2}{\hbar^2}\right)^2}
+        = \frac{r_0^2}{\left(1+\frac{q^2r_0^2}{\hbar^2}\right)^2}\cdot\frac{1}{r_0^2}
+        = {\color{darkred}\frac{1}{\left(1+\frac{q^2r_0^2}{\hbar^2}\right)^2} = \frac{1}{\left(1+\frac{r_0^2}{\lambdabar^2}\right)^2}}.
+    \end{align*}
+\end{itemize}
+
+Wielkość $\lambdabar=\hbar/q$ nazywamy \emph{zredukowaną długością fali de Broglie'a}. Widzimy, że dla $\lambdabar\gg r_0$, czynnik struktury dla rozkładu wykładniczego dąży do 1, czyli do wartości $F(\vec{q}^2)$ dla ładunku punktowego. Natomiast jeżeli $\lambdabar\ll r_0$, to czynnik struktury dąży do zera, a co za tym idzie, rozpraszanie jest silnie tłumione. \hl{Badanie struktury o rozmiarze rzędu $r_0$ wymaga użycia cząstek o zredukowanej długości fali de Broglie'a mniejszej od $r_0$: $\lambdabar\leq r_0$.}
+
+Obliczony $F(\vec{q}^2)$ dla jednorodnej kuli jest funkcją niemonotoniczną z wielokrotnymi minimami. 
+Pomiar różniczkowego przekroju czynnego na elastyczne rozpraszanie elektronów na jądrach atomowych rzeczywiście wykazuje minima w zmierzonych rozkładach. Analiza przekroju czynnego pozwala na odtworzenie rozkładu ładunku jąder atomowych. Dane wskazują na rozkład o kształcie \textit{rozmytej} kuli, w przybliżeniu opisanej \textit{rozkładem Fermiego}
+\begin{equation}
+    {\color{darkred}\rho(r) = \frac{\rho_0}{1+e^{\tfrac{r-c}{a}}}}
+\end{equation}
+Badając przekrój czynny możemy bezpośrednio (bez założenia postaci rozkładu ładunku) oszacować średni kwadrat promienia
+\begin{equation*}
+    \langle r^2\rangle = \frac{\int r^2\rho(r)\dd[3]{r}}{\int \rho(r)\dd[3]{r}}.
+\end{equation*}
+Dla twardej kuli o ustalonej granicy mamy:
+\begin{equation*}
+    \langle r^2 \rangle = \frac{3}{5}R^2\implies R=\sqrt{\frac{5}{3}}\sqrt{\langle r^2\rangle}.
+\end{equation*}
+Pomiary $\langle r^2\rangle$ wielu jąder mogą być sparametryzowane jako
+\begin{equation}
+    \sqrt{\langle r^2\rangle} = \sqrt{\frac{3}{5}} r_0 A^{\frac{1}{3}}\text{ fm}\implies
+    {\color{darkred}\boxed{R=r_0 A^{\frac{1}{3}}\text{ fm}}}\, ,
+\end{equation}
+gdzie $r_0$ jest parametrem w granicach od 1,2 fm do 1,3 fm. 
+
+Pomiary rozpraszania elektronów na jądrach dają informację o \emph{rozkładzie ładunku elektrycznego}. Rozpraszanie hadronów wskazuje, że \emph{rozkład materii jądrowej} (protonów i elektronów) jest analogiczny do rozkładu ładunku, w szczególności można opisać go takim samym promieniem. Proporcjonalność promienia do $A^{1/3}$ wskazuje, że nukleony w jądrze można traktować jak nieścieśliwy płyn:
+\begin{equation*}
+    R\propto A^{\frac{1}{3}}\implies\rho=\frac{A}{V}\propto \frac{A}{R^3}\propto \frac{A}{A}=const.
+\end{equation*}
+Gęstość takiego płynu nukleonów wynosi:
+\begin{equation*}
+    \rho \approx 0,16 \frac{\text{nukleon}}{\text{fm}^3}\approx 3\cdot10^{14}\rho_{\ce{H_2O}}.
+\end{equation*}
 
 \newpage
 \section{Masa jądra atomowego. Energia wiązania, nadwyżka masy}

@@ -17,16 +17,16 @@
 \contentsline {section}{\numberline {16}Rodzaje akceleratorów}{18}{section.16}%
 \contentsline {section}{\numberline {17}Własności oddziaływania słabego}{19}{section.17}%
 \contentsline {section}{\numberline {18}Czynnik struktury w rozpraszaniu elastycznym}{20}{section.18}%
-\contentsline {section}{\numberline {19}Masa jądra atomowego. Energia wiązania, nadwyżka masy}{21}{section.19}%
-\contentsline {section}{\numberline {20}Model kroplowy, energia wiązania}{22}{section.20}%
-\contentsline {section}{\numberline {21}Parabola mas. Ścieżka stabilności}{23}{section.21}%
-\contentsline {section}{\numberline {22}Bilans energii w rozpadach alfa i beta}{24}{section.22}%
-\contentsline {section}{\numberline {23}Model gazu Fermiego}{24}{section.23}%
-\contentsline {section}{\numberline {24}Model powłokowy. Spin jąder}{25}{section.24}%
-\contentsline {section}{\numberline {25}Przejścia gamma. Reguły wyboru}{27}{section.25}%
-\contentsline {section}{\numberline {26}Przejścia alfa. Czas życia ze względu na przejście alfa. Reguły wyboru}{28}{section.26}%
-\contentsline {section}{\numberline {27}Przejścia beta. Rozkład energii elektronu. Związek z masą neutrina}{30}{section.27}%
-\contentsline {section}{\numberline {28}Rozszczepienie jąder ciężkich: reakcje łańcuchowe, reaktor jądrowy, masa krytyczna}{32}{section.28}%
-\contentsline {section}{\numberline {29}Schemat budowy reaktora jądrowego}{33}{section.29}%
-\contentsline {section}{\numberline {30}Doświadczalne potwierdzenie istnienia gluonów}{34}{section.30}%
-\contentsline {section}{\numberline {31}Doświadczalne potwierdzenie istnienia bozonów W i Z}{35}{section.31}%
+\contentsline {section}{\numberline {19}Masa jądra atomowego. Energia wiązania, nadwyżka masy}{23}{section.19}%
+\contentsline {section}{\numberline {20}Model kroplowy, energia wiązania}{24}{section.20}%
+\contentsline {section}{\numberline {21}Parabola mas. Ścieżka stabilności}{25}{section.21}%
+\contentsline {section}{\numberline {22}Bilans energii w rozpadach alfa i beta}{26}{section.22}%
+\contentsline {section}{\numberline {23}Model gazu Fermiego}{26}{section.23}%
+\contentsline {section}{\numberline {24}Model powłokowy. Spin jąder}{27}{section.24}%
+\contentsline {section}{\numberline {25}Przejścia gamma. Reguły wyboru}{29}{section.25}%
+\contentsline {section}{\numberline {26}Przejścia alfa. Czas życia ze względu na przejście alfa. Reguły wyboru}{30}{section.26}%
+\contentsline {section}{\numberline {27}Przejścia beta. Rozkład energii elektronu. Związek z masą neutrina}{32}{section.27}%
+\contentsline {section}{\numberline {28}Rozszczepienie jąder ciężkich: reakcje łańcuchowe, reaktor jądrowy, masa krytyczna}{34}{section.28}%
+\contentsline {section}{\numberline {29}Schemat budowy reaktora jądrowego}{35}{section.29}%
+\contentsline {section}{\numberline {30}Doświadczalne potwierdzenie istnienia gluonów}{36}{section.30}%
+\contentsline {section}{\numberline {31}Doświadczalne potwierdzenie istnienia bozonów W i Z}{37}{section.31}%
